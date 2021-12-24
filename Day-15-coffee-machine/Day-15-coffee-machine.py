@@ -35,7 +35,7 @@ resources = {
 profit = 0
 
 
-# TODO: 1. Print report of inventory
+# 1. Print report of inventory
 
 
 def report():
@@ -45,7 +45,7 @@ def report():
     print(f"Money: ${profit}")
 
 
-# TODO: 2. Check if resources are sufficient
+# 2. Check if resources are sufficient
 
 
 def is_enough_resources(ingredients):
@@ -56,7 +56,7 @@ def is_enough_resources(ingredients):
     return True
 
 
-# TODO: 3. Process coins
+# 3. Process coins
 
 
 def process_coins():
@@ -69,7 +69,7 @@ def process_coins():
     return total
 
 
-# TODO: 4. Check if transactions are successful
+# 4. Check if transactions are successful
 
 
 def is_transaction_successful(money_received, drink_cost):
@@ -86,7 +86,7 @@ def is_transaction_successful(money_received, drink_cost):
         return False
 
 
-# TODO: 5. Make coffee and update the inventory
+# 5. Make coffee and update the inventory
 
 
 def make_coffee(drink_name, ingredients):
